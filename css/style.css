@@ -83,7 +83,7 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     font-size: 18px;
     font-weight: 600;
     outline: none;
@@ -112,7 +112,7 @@
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: #FFFFFF;
+        background: #ffffff;
     }
 
     .navbar-light .navbar-collapse {
@@ -144,7 +144,7 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: #FFFFFF;
+        background: #000000;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -172,7 +172,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/enjoy.mp4);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,7 +290,7 @@
 }
 
 .team-item .btn {
-    background: #1010;
+    background: rgb(12, 10, 10);
     color: var(--primary);
     border-radius: 20px;
     border-bottom: 1px solid var(--primary);
@@ -298,7 +298,7 @@
 
 .team-item .btn:hover {
     background: var(--primary);
-    color: #1010;
+    color: rgb(17, 3, 17);
 }
 
 
@@ -310,7 +310,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgb(255, 253, 253) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(251, 248, 248) 0%, rgba(255, 254, 254, 0) 100%);
     z-index: 1;
 }
 
@@ -350,7 +350,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #1010 !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .testimonial-carousel .owl-dots {
